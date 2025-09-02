@@ -136,3 +136,22 @@ Para poder mexer com banco de dados no Laravel primeiro instale a extensão a se
 ![enter image description here](https://snipboard.io/FN82jV.jpg)
 
 Depois procure as pastas 'database' e vamos mexer 'factories', 'migrations' e 'seeders'. Feito isso vamos rodar um comando chamado: php artisan db:seed. 
+
+Depois de configurar o banco SQLite e rodar as migrations anteriormente, agora você pode fazer consultas SQL diretamente dentro do VS Code, utilizando a extensão SQLite instalada.
+
+Acessando o banco de dados SQLite via VS Code
+- [ ] 1. Abrir o banco de dados no VS Code
+Com a extensão SQLite já instalada, vá até a barra lateral do VS Code e clique no ícone da extensão (geralmente com um banco ou símbolo de dados).
+
+Clique em “Open Database” e selecione o arquivo database.sqlite que está dentro da pasta database do seu projeto.
+
+Agora o banco de dados será exibido na lateral esquerda, com todas as tabelas visíveis.
+
+- [ ] 2. Executar consultas SQL com o atalho Ctrl+P
+Pressione Ctrl+P no VS Code
+
+Digite > SQLite: New Query e selecione a opção
+
+Uma aba nova será aberta para que você possa digitar e executar comandos SQL diretamente no SQLite do seu projeto
+
+Certifique-se de selecionar o banco correto no canto superior direito da aba de query (caso você tenha mais de um aberto)
