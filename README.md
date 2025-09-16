@@ -155,3 +155,6 @@ Digite > SQLite: New Query e selecione a opção
 Uma aba nova será aberta para que você possa digitar e executar comandos SQL diretamente no SQLite do seu projeto
 
 Certifique-se de selecionar o banco correto no canto superior direito da aba de query (caso você tenha mais de um aberto)
+
+
+* Tecla de atalho para pesquisa de arquivo *Ctrl + P*
